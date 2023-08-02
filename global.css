@@ -1,0 +1,52 @@
+.hidden{
+    display: none;
+}
+body{
+    background-color: rgb(12, 12, 12);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(12, 12, 12);
+    color: white;
+    font-family: 'Borel', cursive;
+    margin: 0.5em;
+    margin-top: 2em;
+}
+
+#canvas-container {
+    
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+  }
+
+.prePage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(12, 12, 12);
+    z-index: 9999; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surpriseButton{
+    background-color: aliceblue;
+    font-family: 'Borel', cursive;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1.5em;
+}
+
+.surpriseButton:hover{
+    cursor: pointer;
+    background-color: #9FC5E8;
+    color: aliceblue;
+}
